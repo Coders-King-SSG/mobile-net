@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Net</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <center>
+        <div class="header col-xs-12">
+            <h2>Image Recognition Model</h2>&nbsp;&nbsp;&nbsp;
+            <img src="logo.gif" id="logo">
+        </div>
+        <br>
+        <br>
+        <div class="webcamSection col-sm-6 col-xs-12">
+            <label>Webcam View:</label>
+            <div class="camera" id="camera"></div>
+            <button class="btn btn-success" onclick="snap()">Take Snapshot</button>
+        </div>
+        <div class="webcamSection col-sm-6 col-xs-12">
+            <label>Snapshot:</label>
+            <div class="camera" id="results"></div>
+            <button class="btn btn-success" onclick="predict()">Predict Object</button>
+        </div>
+    </center>
+    <div class="answer_div col-xs-12">
+        <h4 class="col-sm-6 col-xs-12"><img src="bulb.gif" alt=""><span id="object_name"></span></h4>
+    </div>
+    <br>
+    <div class="footer_div">
+        <h5>&copy; Copyright 2020</h5>
+        <h6>Developed by ~ S. S. Gupta</h6>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+body {
+    font-family: 'Montserrat Alternates', sans-serif;
+    background: rgba(255, 126, 0, 0.30)!important;
+}
+
+.header h2 {
+    display: inline-block;
+    color: orange;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.header img {
+    width: 100px;
+}
+
+.header {
+    background: #fff;
+    box-shadow: 0px 5px 18px #fff;
+}
+
+.webcamSection {
+    background: rgba(255, 0, 126, 0.35);
+    margin-top: 15px;
+    padding: 15px 10px 15px 10px;
+    border: 2px solid chartreuse
+}
+
+.webcamSection label {
+    font-size: 25px;
+    font-family: fantasy;
+    letter-spacing: 2px;
+    background: rgba(127, 255, 0, 0.30);
+    width: 310px;
+    border-radius: 25px;
+    padding: 5px;
+    box-shadow: 5px 5px 18px #fff;
+    margin-bottom:10px;
+}
+
+.camera {
+    width: 310px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 5px 5px 18px #fff;
+}
+
+.webcamSection button {
+    width: 310px;
+    font-weight: bolder;
+    font-size: 23px;
+    box-shadow: 5px 5px 13px #fff;
+}
+
+.answer_div > h4 > img {
+    width: 70px;
+}
+
+.answer_div h4 {
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 5px 10px 5px 15px;
+    text-align: left;
+    box-shadow: 5px 5px 18px #fff;
+}
+
+.answer_div {
+    margin-bottom: 100px;
+}
+
+.footer_div {
+    position: fixed;
+    bottom: 0px;
+    background-color: #fff;
+    color:#617;
+    text-align: center;
+    line-height:3.5;
+    width: 100%;
+    border-top: #888 solid 3px;
+}
